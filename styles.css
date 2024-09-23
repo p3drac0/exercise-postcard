@@ -1,0 +1,75 @@
+body {
+	font-family: "Pixelify Sans", sans-serif;
+	color: rgb(70, 70, 121);
+	background: black;
+}
+
+.postcard {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+	background-color: rgb(255, 166, 0);
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 1000px;
+	height: 1px;
+	margin: 1%;
+}
+.postcard-body {
+	background-color: rgb(240, 208, 150);
+	display: flex;
+}
+.body-left {
+	width: 50%;
+	padding: 20px;
+	display: center;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-right {
+	color: gray;
+	padding: 20px;
+	width: 50%;
+}
+.body-right p:first-child {
+	margin-top: 0px;
+}
+input {
+	border-bottom-color: gray;
+}
+.postcard-footer {
+	background-color: rgb(255, 166, 0);
+	height: 50px;
+	text-align: center;
+}
+button {
+	font-family: "Pixelify Sans", sans-serif;
+	padding: 5px;
+	background-color: rgb(70, 70, 121);
+	margin: 10px;
+	color: rgb(255, 166, 0);
+}
+button:hover {
+	border-left-color: rgb(0, 0, 0);
+	border-top-color: black;
+	border-right: none;
+	border-bottom: none;
+}
+button:active {
+	border-right-color: black;
+	border-bottom-color: black;
+	border-left: none;
+	border-top: none;
+}
+
